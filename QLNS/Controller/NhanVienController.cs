@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ConsoleApplication1.Entity;
 using Controller.DTO;
+using AutoMapper;
 
 namespace Controller
 {
@@ -17,6 +18,7 @@ namespace Controller
         }
         public List<TblTTNVCoBan> getAllNhanVien()
         {
+           
             List<TblTTNVCoBan> result = new List<TblTTNVCoBan>();
             result = connect.TblTTNVCoBans.ToList();
             return result;
@@ -53,6 +55,7 @@ namespace Controller
         }
         public Result<TblTTNVCoBan> updateNhanVien(TblTTNVCoBan instance)
         {
+            var a = AutoMapper.Mapper.Map<TblTTNVCoBan, NhanVienDTO>(instance);
             var result = new Result<TblTTNVCoBan>();
             var temp = connect.TblTTNVCoBans.Where(x => x.MaNV == instance.MaNV).FirstOrDefault();
             if (temp != null)
