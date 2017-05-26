@@ -9,30 +9,30 @@ using AutoMapper;
 
 namespace Controller
 {
-    public class NhanVienController
+    public class PhongBanController
     {
         private QLNS connect = null;
-        public NhanVienController()
+        public PhongBanController()
         {
             connect = new QLNS();
         }
-        public List<TblTTNVCoBan> getAllNhanVien()
+        public List<TblPhongBan> getAllPhongBan()
         {
             
 
-            List<TblTTNVCoBan> result = new List<TblTTNVCoBan>();
-            result = connect.TblTTNVCoBans.ToList();
+            List<TblPhongBan> result = new List<TblPhongBan>();
+            result = connect.TblPhongBans.ToList();
             return result;
         }
-        public Result<TblTTNVCoBan> addNhanVien(TblTTNVCoBan instance)
+        public Result<TblPhongBan> addPhongBan(TblPhongBan instance)
         {
-            var result = new Result<TblTTNVCoBan>();
-            var temp = connect.TblTTNVCoBans.Where(x => x.MaNV == instance.MaNV).FirstOrDefault();
+            var result = new Result<TblPhongBan>();
+            var temp = connect.TblPhongBans.Where(x => x.MaPhong == instance.MaPhong).FirstOrDefault();
             if(temp!=null)
             {
                 try
                 {
-                    connect.TblTTNVCoBans.Add(instance);
+                    connect.TblPhongBans.Add(instance);
                     connect.SaveChanges();
                     result.Success = true;
                     result.message = "Thành công!";
@@ -54,11 +54,11 @@ namespace Controller
                 return result;
             }
         }
-        public Result<TblTTNVCoBan> updateNhanVien(TblTTNVCoBan instance)
+        public Result<TblPhongBan> updatePhongBan(TblPhongBan instance)
         {
-            var a = AutoMapper.Mapper.Map<TblTTNVCoBan, NhanVienDTO>(instance);
-            var result = new Result<TblTTNVCoBan>();
-            var temp = connect.TblTTNVCoBans.Where(x => x.MaNV == instance.MaNV).FirstOrDefault();
+            //var a = AutoMapper.Mapper.Map<TblTTNVCoBan, NhanVienDTO>(instance);
+            var result = new Result<TblPhongBan>();
+            var temp = connect.TblPhongBans.Where(x => x.MaPhong == instance.MaPhong).FirstOrDefault();
             if (temp != null)
             {
                 try
@@ -84,15 +84,15 @@ namespace Controller
                 return result;
             }
         }
-        public Result<TblTTNVCoBan> deleteNhanVien(string manv)
+        public Result<TblPhongBan> deletePhongBan(string ma)
         {
-            var result = new Result<TblTTNVCoBan>();
-            var temp = connect.TblTTNVCoBans.Where(x => x.MaNV == manv).FirstOrDefault();
+            var result = new Result<TblPhongBan>();
+            var temp = connect.TblPhongBans.Where(x => x.MaPhong == ma).FirstOrDefault();
             if (temp != null)
             {
                 try
                 {
-                    connect.TblTTNVCoBans.Remove(temp);
+                    connect.TblPhongBans.Remove(temp);
                     connect.SaveChanges();
                     result.Success = true;
                     result.Data = temp;
