@@ -9,29 +9,30 @@ using AutoMapper;
 
 namespace Controller
 {
-    public class NhanVienController
+    public class BoPhanController
     {
         private QLNS connect = null;
-        public NhanVienController()
+        public BoPhanController()
         {
             connect = new QLNS();
         }
-        public List<TblTTNVCoBan> getAllNhanVien()
+        public List<TblBoPhan> getAllBoPhan()
         {
-           
-            List<TblTTNVCoBan> result = new List<TblTTNVCoBan>();
-            result = connect.TblTTNVCoBans.ToList();
+            
+
+            List<TblBoPhan> result = new List<TblBoPhan>();
+            result = connect.TblBoPhans.ToList();
             return result;
         }
-        public Result<TblTTNVCoBan> addNhanVien(TblTTNVCoBan instance)
+        public Result<TblBoPhan> addBoPhan(TblBoPhan instance)
         {
-            var result = new Result<TblTTNVCoBan>();
-            var temp = connect.TblTTNVCoBans.Where(x => x.MaNV == instance.MaNV).FirstOrDefault();
+            var result = new Result<TblBoPhan>();
+            var temp = connect.TblBoPhans.Where(x => x.MaBophan == instance.MaBophan).FirstOrDefault();
             if(temp!=null)
             {
                 try
                 {
-                    connect.TblTTNVCoBans.Add(instance);
+                    connect.TblBoPhans.Add(instance);
                     connect.SaveChanges();
                     result.Success = true;
                     result.message = "Thành công!";
@@ -53,11 +54,11 @@ namespace Controller
                 return result;
             }
         }
-        public Result<TblTTNVCoBan> updateNhanVien(TblTTNVCoBan instance)
+        public Result<TblBoPhan> updateBoPhan(TblBoPhan instance)
         {
-            var a = AutoMapper.Mapper.Map<TblTTNVCoBan, NhanVienDTO>(instance);
-            var result = new Result<TblTTNVCoBan>();
-            var temp = connect.TblTTNVCoBans.Where(x => x.MaNV == instance.MaNV).FirstOrDefault();
+            //var a = AutoMapper.Mapper.Map<TblTTNVCoBan, NhanVienDTO>(instance);
+            var result = new Result<TblBoPhan>();
+            var temp = connect.TblBoPhans.Where(x => x.MaBophan == instance.MaBophan).FirstOrDefault();
             if (temp != null)
             {
                 try
@@ -83,15 +84,15 @@ namespace Controller
                 return result;
             }
         }
-        public Result<TblTTNVCoBan> deleteNhanVien(string manv)
+        public Result<TblBoPhan> deleteBoPhan(string ma)
         {
-            var result = new Result<TblTTNVCoBan>();
-            var temp = connect.TblTTNVCoBans.Where(x => x.MaNV == manv).FirstOrDefault();
+            var result = new Result<TblBoPhan>();
+            var temp = connect.TblBoPhans.Where(x => x.MaBophan == ma).FirstOrDefault();
             if (temp != null)
             {
                 try
                 {
-                    connect.TblTTNVCoBans.Remove(temp);
+                    connect.TblBoPhans.Remove(temp);
                     connect.SaveChanges();
                     result.Success = true;
                     result.Data = temp;
