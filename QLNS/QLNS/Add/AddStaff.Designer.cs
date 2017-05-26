@@ -58,7 +58,16 @@
             this.lblTenNV = new System.Windows.Forms.Label();
             this.lblMaNV = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtNoiSinh = new System.Windows.Forms.TextBox();
+            this.lblNoiSinh = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.grpTTCoBan.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // grpTTCoBan
@@ -335,12 +344,84 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.txtNoiSinh);
+            this.groupBox1.Controls.Add(this.lblNoiSinh);
             this.groupBox1.Location = new System.Drawing.Point(12, 178);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(645, 208);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin cá nhân";
+            // 
+            // txtNoiSinh
+            // 
+            this.txtNoiSinh.Location = new System.Drawing.Point(61, 37);
+            this.txtNoiSinh.Name = "txtNoiSinh";
+            this.txtNoiSinh.Size = new System.Drawing.Size(100, 20);
+            this.txtNoiSinh.TabIndex = 9;
+            // 
+            // lblNoiSinh
+            // 
+            this.lblNoiSinh.AutoSize = true;
+            this.lblNoiSinh.Location = new System.Drawing.Point(11, 41);
+            this.lblNoiSinh.Name = "lblNoiSinh";
+            this.lblNoiSinh.Size = new System.Drawing.Size(45, 13);
+            this.lblNoiSinh.TabIndex = 8;
+            this.lblNoiSinh.Text = "Nơi sinh";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(61, 78);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.TabIndex = 11;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(11, 82);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Tên NV";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(61, 119);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 13;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(11, 123);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(44, 13);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Tên NV";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(61, 158);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.TabIndex = 15;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(11, 162);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Tên NV";
             // 
             // AddStaff
             // 
@@ -354,6 +435,8 @@
             this.Text = "Thêm mới nhân viên";
             this.grpTTCoBan.ResumeLayout(false);
             this.grpTTCoBan.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -390,5 +473,13 @@
         private System.Windows.Forms.TextBox txtBiDanh;
         private System.Windows.Forms.Label lblBiDanh;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtNoiSinh;
+        private System.Windows.Forms.Label lblNoiSinh;
     }
 }
