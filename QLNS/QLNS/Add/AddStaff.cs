@@ -38,5 +38,6 @@ namespace QLNS.Add
                 e.Graphics.FillRectangle(brush, rc);
             }
         }
+        
     }
 }
