@@ -18,8 +18,7 @@ namespace Controller
         }
         public List<TblTTNVCoBan> getAllNhanVien()
         {
-            
-
+           
             List<TblTTNVCoBan> result = new List<TblTTNVCoBan>();
             result = connect.TblTTNVCoBans.ToList();
             return result;
