@@ -1,6 +1,6 @@
-﻿namespace QLNS
+﻿namespace QLNS.Add
 {
-    partial class Form1
+    partial class AddStaff
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // AddStaff
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(669, 299);
+            this.Name = "AddStaff";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Thêm mới nhân viên";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
