@@ -75,6 +75,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Show\DanhSachBoPhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Show\DanhSachBoPhan.Designer.cs">
+      <DependentUpon>DanhSachBoPhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Show\DanhSachNhanVien.cs">
       <SubType>UserControl</SubType>
     </Compile>
