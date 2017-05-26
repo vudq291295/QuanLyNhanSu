@@ -16,3 +16,6 @@ G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\QLNS\bin\Debug\Controller.
 G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\QLNS\bin\Debug\EntityFramework.xml
 G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\QLNS\obj\Debug\QLNS.exe
 G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\QLNS\obj\Debug\QLNS.pdb
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\QLNS\bin\Debug\QLNS.exe.config
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\QLNS\obj\Debug\QLNS.exe
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\QLNS\obj\Debug\QLNS.pdb
