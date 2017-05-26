@@ -60,6 +60,7 @@ namespace QLNS.Main
             tabControl.SelectedTab = newTabPage;
         }
 
+
         private void thêmMớiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Add.AddStaff uc = new Add.AddStaff();
