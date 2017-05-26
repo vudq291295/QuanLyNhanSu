@@ -6,22 +6,19 @@ namespace ConsoleApplication1.Entity
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
-    [Table("Role")]
-    public partial class Role
+    [Table("tbuser")]
+    public partial class tbuser
     {
-        public int ID { get; set; }
-
-        [Column("Role")]
+        [Key]
         [StringLength(50)]
-        public string Role1 { get; set; }
+        public string Username { get; set; }
 
         [StringLength(50)]
-        public string MaRole { get; set; }
+        public string Pass { get; set; }
 
         [StringLength(50)]
-        public string TenQuyen { get; set; }
+        public string Ten { get; set; }
 
-        [StringLength(500)]
-        public string MoTa { get; set; }
+        public DateTime? Ngaysinh { get; set; }
     }
 }
