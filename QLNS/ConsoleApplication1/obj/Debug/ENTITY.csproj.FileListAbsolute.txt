@@ -8,3 +8,13 @@ G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\bin\De
 G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
 G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\bin\Debug\EntityFramework.dll
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\bin\Debug\EntityFramework.xml
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

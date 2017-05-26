@@ -8,3 +8,14 @@ G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\Conso
 G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\EntityFramework.xml
 G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\Controller\obj\Debug\Controller.exe
 G:\Study\HK6_Thuc_Tap_Nhom\Exc\QLNS\QuanLyNhanSu\QLNS\Controller\obj\Debug\Controller.pdb
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\Controller.exe.config
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\Controller.exe
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\Controller.pdb
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\AutoMapper.dll
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\ConsoleApplication1.exe
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\ConsoleApplication1.pdb
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\AutoMapper.xml
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\bin\Debug\EntityFramework.xml
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\obj\Debug\Controller.exe
+D:\BaiGiang\HK8\ThucTapNhom\QLNS\QuanLyNhanSu\QLNS\Controller\obj\Debug\Controller.pdb
