@@ -1,5 +1,4 @@
-﻿using ConsoleApplication1.Entity;
-using Controller;
+﻿using Controller;
 using QLNS.HelperClass;
 using System;
 using System.Collections.Generic;
@@ -23,7 +22,7 @@ namespace QLNS.Add
             SetStyle(ControlStyles.ResizeRedraw, true);
 
             this.TitleCol = new List<string>() { { "Mã nhân viên" }, { "Tên nhân viên" }, { "Ngày Sinh" }, { "Giới Tính" }, { "Quê quán" } };
-            DataGridView dt = this.CreateGrid<NhanVien>(contr.GetAll());
+            //DataGridView dt = this.CreateGrid<NhanVien>(contr.GetAll());
             this.TitleCol = new List<string>(){{"Mã nhân viên"}, {"Tên nhân viên"},{"Ngày Sinh"},{"Giới Tính"}, {"Quê quán"}};
             this.Controls.Add(dt);
         }

@@ -52,13 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\GroupUser.cs" />
-    <Compile Include="Entity\NhanVien.cs" />
-    <Compile Include="Entity\Permission.cs" />
-    <Compile Include="Entity\PhongBan.cs" />
-    <Compile Include="Entity\QLNSEntity.cs" />
-    <Compile Include="Entity\Role.cs" />
-    <Compile Include="Entity\User.cs" />
+    <Compile Include="Entity\QLNS.cs" />
+    <Compile Include="Entity\TblBoPhan.cs" />
+    <Compile Include="Entity\TblPhongBan.cs" />
+    <Compile Include="Entity\TblTTCaNhan.cs" />
+    <Compile Include="Entity\TblTTNVCoBan.cs" />
+    <Compile Include="Entity\tbuser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
